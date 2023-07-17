@@ -1,11 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact</title>
+    <!-- Kimmy Walker, CIS 130, July 16, 2023 -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsivestyles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gugi&family=Heebo&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    
+    <header>
+        <h1>Howard's Lakeside General Store</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="shop.html">BAIT SHOP</a></li>
+                <li><a href="">EVENTS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="contactcontainer">
+        <div id="contantinfo">
+            Howard's Lakeside General Store <br>
+            1919 Croft Road <br>
+            Springfield, OH 45503 <br>
+            <br>
+        </div>
+
+        <div id="contactus">
+            <div>
+                <form method="get" action="thankyou-1.html">
+                    <fieldset>
+                        <legend>
+                            Contact Information
+                        </legend>
+                        <label for="fname" class="cilabel">
+                            First Name:
+                            <input autofocus type="text" name="fname" id="fname" placeholder="First Name" required
+                                class="shortanswer">
+                        </label>
+                        <label for="lname" class="cilabel">
+                            Last Name:
+                            <input type="text" name="lname" id="lname" placeholder="Last Name" required
+                                class="shortanswer">
+                        </label>
+                        <label for="email" class="cilabel">
+                            Email:
+                            <input type="email" name="email" id="email" placeholder="Email" required
+                                class="shortanswer">
+                        </label>
+                    </fieldset>
+                    <fieldset id="checkbox">
+                        <legend>What can we help with?</legend>
+                        <input type="checkbox" id="class1" name="class1" value="bait">
+                        <label for="class1">Bait Options</label>
+
+                        <input type="checkbox" id="class2" name="class2" value="events">
+                        <label for="class2">Join Events Mailing List</label>
+
+                        <input type="checkbox" id="class3" name="class3" value="blog">
+                        <label for="class3">Subscribe to Our Blog</label>
+
+                        <input type="checkbox" id="class4" name="class4" value="spooling">
+                        <label for="class4">Get a Respooling Estimate</label>
+
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>
+                            Additional Inforamtion
+                        </legend>
+                        <textarea id="adtlinfo" name="adtlinfo" placeholder="Any additional info" rows="5"
+                            cols="60"></textarea>
+                    </fieldset>
+                    <input type="submit" value="Submit" class="submit">
+
+                </form>
+
+            </div>
+
+        </div>
+    </div>
+    <footer>Howard's Lakeside Genral Store &copy; 2023 | <a href="tel:+14170001234">1-417-000-1234</a> | <a
+            href="mailto:howardslakeside@bait.com">HowardsLakeside@Bait.com</a></footer>
 </body>
+
 </html>

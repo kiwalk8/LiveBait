@@ -1,0 +1,124 @@
+/* Kimmy Walker, CIS 130, July 16, 2023*/
+/* GENERAL PAGE STYLES */
+body {
+    background-color: #7e916e;
+    margin: 0px;
+    font-family: 'Heebo', sans-serif;
+    }
+
+nav ul {
+    text-align: center;
+    background-color: #dfe6ef;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+/* } grid here? */
+nav li {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin: 40px;
+    background-color: #7e916e;
+    list-style: none;
+}
+
+
+a {
+    color: #dfe6ef;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #dfe6ef;
+}
+
+.welcome {
+    background-color: #dfe6ef;
+    padding-top: 30px;
+    display: grid;
+    grid-gap: 20px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+}
+
+.welcome div {
+    margin: auto;
+}
+
+.services {
+    background-color: #dfe6ef;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Gugi', cursive;
+    text-align: center;
+    font-size: 36pt;
+}
+
+h1, h2 {
+    font-family: 'Gugi', cursive;
+    text-align: center;
+    font-size: 22pt;
+}
+
+div {
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    color: #dfe6ef;
+}
+
+.services p {
+    width: 500px;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+
+/* tables */
+
+.tables {
+    background-color: #dfe6ef;
+}
+
+table {
+    border-collapse: collapse;
+    font-size: 10pt;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+td {
+    width: auto;
+    padding: 5px 20px 5px 20px;
+    vertical-align: center;
+    border: .5pt;
+    border-style: solid;
+}
+.subheadtable {
+    font-weight: bolder;
+    font-size: 12pt;
+}
+
+th {
+    text-align: center;
+    font-family: 'Gugi', cursive;
+    font-size: 24pt;
+}
+
+
+/* contact */
